@@ -1,0 +1,65 @@
+Lista de Equipos para Microrred Híbrida (Actualizada)
+1. Generación Fotovoltaica
+Paneles solares: 2x Paneles de 500W, 80V (Total 1KW)
+Estructuras de montaje: Fronius SolarTop para techo inclinado
+Cableado solar: PV1-F 6mm², UV resistente (NTC 2050)
+Conectores MC4: Staubli UVR 1000V DC
+Cajas de conexión: Fronius IP65, 2 entradas
+2. Generación Eólica
+Aerogenerador: ENAIR 3KW con transformador AC-DC integrado (50-60V DC)
+Torre de soporte: ENAIR de 12m, galvanizada (NTC 1523)
+Sistema de anclaje: Base de hormigón H-21 (RETIE 4.4.1.3)
+Cableado eléctrico: THWN-2 10mm² en tubería EMT (NTC 2050)
+3. Almacenamiento Energético
+Baterías 24V: Victron AGM 200Ah (2x12V en serie)
+Baterías 48V: Victron LiFePO4 100Ah (4x12V en serie)
+Monitorización: Victron BMV-712 con shunt 500A
+4. Conversión y Control
+Inversor híbrido: Victron MultiPlus-II 48V/5000VA/120V
+Controlador de carga solar: Victron SmartSolar MPPT 150/35
+Controlador de carga eólica: Victron BlueSolar MPPT 150/35
+Transformador de aislamiento: Victron Isolation Transformer 5kVA
+5. Conexión a Red y Protecciones
+Sincronizador de red: Victron Grid Code 60Hz (RETIE 9.8)
+Medidor bidireccional: Victron Energy Meter (Clase 1)
+Protecciones DC:
+Fotovoltaico: Disyuntor DC 32A/150V (ABB S280UC)
+Eólico: Disyuntor DC 63A/150V (ABB S280UC)
+Protecciones AC:
+Interruptor termomagnético 40A curva C (RETIE 9.5)
+Diferencial 30mA/4 polos (RETIE 9.6.1)
+6. Sistema de Puesta a Tierra
+Varilla de cobre: 5/8" x 2.4m (NTC 4552)
+Cable de tierra: 16mm² THWN-2 (RETIE 4.4.4)
+Terminales: Cobre electrolítico tipo acople
+7. Canalización y Gabinetes
+Tubería EMT: 1 1/4" para circuitos principales (NTC 2050)
+Gabinetes: Schneider IP55 con barras de tierra
+
+[Varilla 5/8"x2.4m]
+
+Notas Técnicas
+Cableado DC:
+
+Fotovoltaico: 6mm² PV1-F en tubería EMT 1"
+Eólico: 10mm² THWN-2 en tubería EMT 1 1/4"
+Protecciones:
+
+Fotovoltaico: Disyuntor DC 32A/150V (ABB S280UC)
+Eólico: Disyuntor DC 63A/150V (ABB S280UC)
+AC: Interruptor 40A curva C + Diferencial 30mA/4 polos
+Puesta a Tierra:
+
+Varilla de cobre 5/8" x 2.4m
+Cable de tierra 16mm² THWN-2
+Conexiones con terminales de cobre electrolítico
+Normativas:
+
+RETIE: 4.4.1.3, 4.4.4, 9.5, 9.6.1, 9.8
+NTC: 1523, 2050, 4552
+Consideraciones de Instalación:
+
+Distancias mínimas entre circuitos DC y AC
+Identificación de circuitos según RETIE
+Protección contra rayos (si aplica)
+Señalización de seguridad
