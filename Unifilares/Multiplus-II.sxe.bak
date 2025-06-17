@@ -4,7 +4,7 @@
 <PrintReportSettings paper_size_enum="9" sheet_size_x="210" sheet_size_y="297" color_bg_even="15727333" color_bg_header="8454143" color_grid="16777215"/>
 <PrinterSettings PaperSizeX="2970" PaperSizeY="2100" PhysicalOffestTenthMm_X="0" PhysicalOffestTenthMm_Y="0"/>
 <tb use="1" name="C:\Users\Public\Documents\ProfiCAD Library\_TB\standard9.ptb"/>
-<PageSettings bgColor="FFFFFF" zoom="75" frame="YES" showT="YES" showV="YES" includeMargins="YES"/>
+<PageSettings bgColor="FFFFFF" zoom="100" frame="YES" showT="YES" showV="YES" includeMargins="YES"/>
 <RefGridSettings FieldSize="50"/>
 <NumberingWire Over="1" Digits="3" TypeRenumbering="0" ShowWireName="0" WireLabelDist_a="4" WireLabelDist_b="10" WireLabelDist_c="7"/>
 <summary>
@@ -561,7 +561,7 @@
 <text x="881" y="261" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">40 A DC</text>
 <text x="881" y="621" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">20 A DC</text>
 <text x="1241" y="1101" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 6</text>
-<text x="1581" y="1161" a="900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">63 A DC</text>
+<text x="1501" y="1161" a="750" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">20 A DC</text>
 </layer>
 </layers>
 </page>
