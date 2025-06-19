@@ -1,10 +1,10 @@
 <document type="ProfiCAD sxe" version="12">
 <fonts letter="155,0,0,0,Lucida Sans Unicode,000000" text="110,0,0,0,Lucida Sans Unicode,000000" type="85,0,0,0,Arial,FF00FF" refs="85,0,0,0,Arial,008000" wire_names="85,0,0,0,Arial,000000" cross_refs="85,0,0,1,Arial,0000FF" outlets="85,0,0,0,Arial,000000" reports="85,0,0,0,Arial,000000"/>
-<PrintSettings PrinterName="" PaperSize="9" FormName="A4" SheetSizeX="210" SheetSizeY="297" WantsCustom="0" CustomSizeX="283" CustomSizeY="203"/>
+<PrintSettings PrinterName="" PaperSize="1" FormName="Carta" SheetSizeX="215" SheetSizeY="279" WantsCustom="0" CustomSizeX="283" CustomSizeY="203"/>
 <PrintReportSettings paper_size_enum="9" sheet_size_x="210" sheet_size_y="297" color_bg_even="15727333" color_bg_header="8454143" color_grid="16777215"/>
-<PrinterSettings PaperSizeX="2970" PaperSizeY="2100" PhysicalOffestTenthMm_X="0" PhysicalOffestTenthMm_Y="0"/>
+<PrinterSettings PaperSizeX="2770" PaperSizeY="1900" PhysicalOffestTenthMm_X="29" PhysicalOffestTenthMm_Y="30"/>
 <tb use="1" name="C:\Users\Public\Documents\ProfiCAD Library\_TB\standard9.ptb"/>
-<PageSettings bgColor="FFFFFF" zoom="100" frame="YES" showT="YES" showV="YES" includeMargins="YES"/>
+<PageSettings bgColor="FFFFFF" zoom="150" frame="YES" showT="YES" showV="YES" includeMargins="YES"/>
 <RefGridSettings FieldSize="50"/>
 <NumberingWire Over="1" Digits="3" TypeRenumbering="0" ShowWireName="0" WireLabelDist_a="4" WireLabelDist_b="10" WireLabelDist_c="7"/>
 <summary>
@@ -12,7 +12,7 @@
 <field name="_sc" value=""/>
 <field name="aprobado" value=""/>
 <field name="author" value=""/>
-<field name="date" value="3/06/2025"/>
+<field name="date" value="19/06/2025"/>
 <field name="dep" value=""/>
 <field name="docStatus" value=""/>
 <field name="docType" value=""/>
@@ -24,39 +24,42 @@
 <field name="tituloSup" value=""/>
 </summary>
 <repo>
-<ppd name="instalaciones\fabricación de la energía eléctrica\generadores\generador fotovoltaico.ppd" n="EN 60617: 06-18-06" fG="8a9d2426-7e1f-4040-8348-e20aae6d6ff2" lG="3692454f-792f-49b5-9e67-03cdde22531a">
+<ppd name="instalaciones\aparellaje eléctrico\contacto de cierre\contacto de cierre.ppd" n="EN 60617: 07-02-02" fG="d00f140c-3336-4387-8a23-b30da0ca713e" lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8">
 <layers current="0">
 <layer name="0" v="1">
-<rect left="-80" top="-80" right="80" bottom="80"/>
-<polyline pts="-134,-17,-104,13,"/>
-<polyline pts="-112,-3,-104,13,"/>
-<polyline pts="-119,6,-104,13,"/>
-<polyline pts="-120,-30,-90,0,"/>
-<polyline pts="-105,-7,-90,0,"/>
-<polyline pts="-98,-16,-90,0,"/>
-<polyline op-lw="4" pts="-4,10,-4,30,"/>
-<polyline pts="3,0,3,40,"/>
-<polyline pts="3,20,40,20,"/>
-<polyline pts="-40,20,-4,20,"/>
-<outlet x="0" y="-80"/>
-<outlet x="0" y="80"/>
-<outlet x="-80" y="0"/>
-<outlet x="80" y="0"/>
-<text x="0" y="-40" f="120,0,0,0,Arial,000000" l="1">G</text>
+<polyline pts="0,-60,0,-30,"/>
+<outlet x="0" y="-60"/>
+<outlet x="0" y="60"/>
+<polyline pts="0,30,0,60,"/>
+<polyline pts="0,30,-30,-30,"/>
 </layer>
 </layers>
 </ppd>
-<ppd name="instalaciones\instalaciones exteriores\transformadores\transformador de tensión - forma 1.ppd" n="EN 60617: 06-13-01A" fG="f0fc1837-f6f4-439a-89c9-398e8e5b3c18" lG="3c6e41df-c582-4ee2-819c-eada1fe68c9a">
+<ppd name="instalaciones\máquinas\arrancadores\arrancador de motor.ppd" n="EN 60617: 07-14-01" fG="a0f15555-035f-4f17-9b46-88a43337e04f" lG="376de820-fa0c-4b99-b181-d6d7fd1aaaf6">
 <layers current="0">
 <layer name="0" v="1">
-<ellipse left="-30" top="-50" right="30" bottom="10"/>
-<ellipse left="-30" top="-10" right="30" bottom="50"/>
-<outlet x="0" y="-50"/>
-<outlet x="0" y="50"/>
+<rect left="-40" top="-40" right="40" bottom="40"/>
+<polyline pts="-40,-40,0,-20,"/>
+<polyline pts="0,-20,40,-40,"/>
+<outlet x="-40" y="0"/>
+<outlet x="0" y="40"/>
+<outlet x="40" y="0"/>
+<outlet x="0" y="-40"/>
 </layer>
 </layers>
 </ppd>
-<ppd name="instalaciones\aparellaje eléctrico\contacto inversor\contacto inversor con posición intermedia de corte.ppd" n="EN 60617: 07-02-05" fG="65f69d8b-bb00-4ef6-bea2-853432b6aafb" lG="4ad06e73-505f-44e0-ba51-303570662dc4">
+<ppd name="instalaciones\máquinas\generador corriente alterna.ppd" fG="11dd6990-0b55-4a69-baaa-b661e9ec95d3" lG="6980e833-8667-4eb0-a942-5b07bddb5ff9">
+<layers current="0">
+<layer name="0" v="1">
+<ellipse left="-60" top="-60" right="60" bottom="60"/>
+<outlet x="-60" y="0"/>
+<outlet x="60" y="0"/>
+<polybezier op-lw="3" pts="-20,30,-3,0,3,60,20,30,"/>
+<text x="0" y="0" f="110,0,0,0,Arial,000000" l="1">G</text>
+</layer>
+</layers>
+</ppd>
+<ppd name="instalaciones\aparellaje eléctrico\seccionador\seccionador de dos direcciones con posición de seccionamiento intermedia.ppd" n="EN 60617: 07-13-07" fG="573093d3-4b76-4245-8da6-2529150b6b2c" lG="7753bc78-84ab-40f5-824c-890e6f64a6f2">
 <layers current="0">
 <layer name="0" v="1">
 <polyline pts="-20,-60,-20,-25,"/>
@@ -67,17 +70,8 @@
 <outlet x="0" y="60"/>
 <outlet x="20" y="-60"/>
 <ellipse left="-4" top="26" right="4" bottom="34"/>
-</layer>
-</layers>
-</ppd>
-<ppd name="instalaciones\máquinas\.\generador corriente alterna.ppd" fG="11dd6990-0b55-4a69-baaa-b661e9ec95d3" lG="6980e833-8667-4eb0-a942-5b07bddb5ff9">
-<layers current="0">
-<layer name="0" v="1">
-<ellipse left="-60" top="-60" right="60" bottom="60"/>
-<outlet x="-60" y="0"/>
-<outlet x="60" y="0"/>
-<polybezier op-lw="3" pts="-20,30,-3,0,3,60,20,30,"/>
-<text x="0" y="0" f="110,0,0,0,Arial,000000" l="1">G</text>
+<polyline pts="-27,-25,-13,-25,"/>
+<polyline pts="13,-25,27,-25,"/>
 </layer>
 </layers>
 </ppd>
@@ -148,10 +142,12 @@
 </layer>
 </layers>
 </ppd>
-<ppd name="instalaciones\instalaciones exteriores\.\conductor.ppd" fG="f74e5904-2946-4823-b6ca-d416b5e441ab" lG="c3eba183-8d23-4974-a672-41762927b359">
+<ppd name="instalaciones\fabricación de la energía eléctrica\3-fásico\devanado trifásico en triángulo.ppd" n="EN 60617: 06-02-05" fG="c535004a-25ea-4161-9a8f-a7a17628ffa8" lG="eca3e0f3-f8f0-4bf1-a7c6-74ee417111ca">
 <layers current="0">
 <layer name="0" v="1">
-<polyline pts="-10,10,10,-10,"/>
+<polyline pts="20,10,-20,10,"/>
+<polyline pts="-20,10,0,-25,"/>
+<polyline pts="0,-25,20,10,"/>
 </layer>
 </layers>
 </ppd>
@@ -232,8 +228,6 @@
 <summary>
 <field name="_du" value="mm"/>
 <field name="_pa" value="1"/>
-<field name="_pcs" value=""/>
-<field name="_pcsc" value=""/>
 <field name="_po" value="1"/>
 <field name="_potb" value="1"/>
 <field name="_sc" value=""/>
@@ -242,326 +236,264 @@
 </summary>
 <layers current="0">
 <layer name="0" v="1">
-<elem lG="6980e833-8667-4eb0-a942-5b07bddb5ff9" x="400" y="220">
+<elem lG="6980e833-8667-4eb0-a942-5b07bddb5ff9" x="280" y="400">
 <attributes>
-<attribute name="_ref" value="1" v="0" al="6" x="313" y="200"/>
-<attribute name="_type" value="" v="0" al="6" x="313" y="240"/>
+<attribute name="_ref" value="1" v="0" al="6" x="193" y="380"/>
+<attribute name="_type" value="" v="0" al="6" x="193" y="420"/>
 </attributes>
 </elem>
-<elem lG="aa1ce724-2f4c-4a8a-aece-3f8a5edc4d23" x="620" y="220">
+<elem lG="376de820-fa0c-4b99-b181-d6d7fd1aaaf6" x="280" y="220" a="900" sX="1.4286" sY="1.4286">
 <attributes>
-<attribute name="_ref" value="2" v="0" al="6" x="533" y="200"/>
-<attribute name="_type" value="" v="0" al="6" x="533" y="240"/>
+<attribute name="_ref" value="2" v="0" al="6" x="213" y="200"/>
+<attribute name="_type" value="" v="0" al="6" x="213" y="240"/>
 </attributes>
 </elem>
-<elem lG="78a820b3-d35f-405b-a083-591a96268938" x="1080" y="220">
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="500" y="400" a="-900">
 <attributes>
-<attribute name="_ref" value="3" v="0" al="6" x="993" y="200"/>
-<attribute name="_type" value="" v="0" al="6" x="993" y="240"/>
+<attribute name="_ref" value="3" v="0" al="6" x="445" y="380"/>
+<attribute name="_type" value="" v="0" al="6" x="445" y="420"/>
 </attributes>
 </elem>
-<polyline pts="460,220,560,220,"/>
-<text x="401" y="141" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Aerogenerador</text>
-<text x="621" y="141" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ENAIR 3 Kw</text>
-<text x="1081" y="141" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">MPPT Victron 150/45</text>
-<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="520" y="220">
+<elem lG="aa1ce724-2f4c-4a8a-aece-3f8a5edc4d23" x="660" y="400">
 <attributes>
-<attribute name="_ref" value="15" v="0" al="6" x="485" y="200"/>
-<attribute name="_type" value="" v="0" al="6" x="485" y="240"/>
+<attribute name="_ref" value="4" v="0" al="6" x="573" y="380"/>
+<attribute name="_type" value="" v="0" al="6" x="573" y="420"/>
 </attributes>
 </elem>
-<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="500" y="220">
+<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="1000" y="620" sX="0.6667" sY="0.6613">
 <attributes>
-<attribute name="_ref" value="16" v="0" al="6" x="465" y="200"/>
-<attribute name="_type" value="" v="0" al="6" x="465" y="240"/>
+<attribute name="_ref" value="5" v="0" al="6" x="945" y="600"/>
+<attribute name="_type" value="" v="0" al="6" x="945" y="640"/>
 </attributes>
 </elem>
-<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="480" y="220">
+<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="1060" y="620" sX="0.6667" sY="0.6613">
 <attributes>
-<attribute name="_ref" value="17" v="0" al="6" x="445" y="200"/>
-<attribute name="_type" value="" v="0" al="6" x="445" y="240"/>
+<attribute name="_ref" value="6" v="0" al="6" x="1005" y="600"/>
+<attribute name="_type" value="" v="0" al="6" x="1005" y="640"/>
 </attributes>
 </elem>
-<elem lG="3692454f-792f-49b5-9e67-03cdde22531a" x="620" y="580" sX="0.7463" sY="0.7439">
+<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="1120" y="620" sX="0.6667" sY="0.6613">
 <attributes>
-<attribute name="_ref" value="4" v="0" al="6" x="461" y="560"/>
-<attribute name="_type" value="" v="0" al="6" x="461" y="600"/>
+<attribute name="_ref" value="7" v="0" al="6" x="1065" y="600"/>
+<attribute name="_type" value="" v="0" al="6" x="1065" y="640"/>
 </attributes>
 </elem>
-<text x="621" y="501" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Paneles solares 1 Kw</text>
-<elem lG="78a820b3-d35f-405b-a083-591a96268938" x="1080" y="580">
+<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="1180" y="620" sX="0.6667" sY="0.6613">
 <attributes>
-<attribute name="_ref" value="5" v="0" al="6" x="993" y="560"/>
-<attribute name="_type" value="" v="0" al="6" x="993" y="600"/>
+<attribute name="_ref" value="8" v="0" al="6" x="1125" y="600"/>
+<attribute name="_type" value="" v="0" al="6" x="1125" y="640"/>
 </attributes>
 </elem>
-<text x="1081" y="481" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">MPPT Victron 150/35</text>
-<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="880" y="220" a="900">
+<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="1240" y="620" sX="0.6667" sY="0.6613">
 <attributes>
-<attribute name="_ref" value="18" v="0" al="6" x="825" y="200"/>
-<attribute name="_type" value="" v="0" al="6" x="825" y="240"/>
+<attribute name="_ref" value="9" v="0" al="6" x="1185" y="600"/>
+<attribute name="_type" value="" v="0" al="6" x="1185" y="640"/>
 </attributes>
 </elem>
-<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="880" y="580" a="900">
+<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="1300" y="620" sX="0.6667" sY="0.6613">
 <attributes>
-<attribute name="_ref" value="19" v="0" al="6" x="825" y="560"/>
-<attribute name="_type" value="" v="0" al="6" x="825" y="600"/>
+<attribute name="_ref" value="10" v="0" al="6" x="1245" y="600"/>
+<attribute name="_type" value="" v="0" al="6" x="1245" y="640"/>
 </attributes>
 </elem>
-<elem lG="a442a450-d3b0-464b-a83e-087f46573482" x="1060" y="880">
+<elem lG="78a820b3-d35f-405b-a083-591a96268938" x="760" y="840">
 <attributes>
-<attribute name="_ref" value="B1" v="0" al="6" x="1015" y="860"/>
-<attribute name="_type" value="" v="0" al="6" x="1015" y="900"/>
+<attribute name="_ref" value="11" v="0" al="6" x="673" y="820"/>
+<attribute name="_type" value="" v="0" al="6" x="673" y="860"/>
 </attributes>
 </elem>
-<rect left="980" top="840" right="1140" bottom="920"/>
-<polyline pts="1040,880,1000,880,"/>
-<polyline pts="1080,880,1120,880,"/>
-<elem lG="4ad06e73-505f-44e0-ba51-303570662dc4" x="1400" y="1060">
+<elem lG="78a820b3-d35f-405b-a083-591a96268938" x="760" y="1020">
 <attributes>
-<attribute name="_ref" value="20" v="0" al="6" x="1353" y="1040"/>
-<attribute name="_type" value="" v="0" al="6" x="1353" y="1080"/>
+<attribute name="_ref" value="12" v="0" al="6" x="673" y="1000"/>
+<attribute name="_type" value="" v="0" al="6" x="673" y="1040"/>
 </attributes>
 </elem>
-<elem lG="f336b6c7-2a92-4d90-b849-b50d13fa9941" x="1740" y="360" h="1" a="-1800">
+<rect left="1060" top="100" right="1180" bottom="180"/>
+<elem lG="f336b6c7-2a92-4d90-b849-b50d13fa9941" x="1740" y="220" v="1">
 <attributes>
-<attribute name="_ref" value="21" v="0" al="6" x="1653" y="340"/>
-<attribute name="_type" value="" v="0" al="6" x="1653" y="380"/>
+<attribute name="_ref" value="13" v="0" al="6" x="1653" y="200"/>
+<attribute name="_type" value="" v="0" al="6" x="1653" y="240"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="720" y="220">
+<elem lG="f336b6c7-2a92-4d90-b849-b50d13fa9941" x="1740" y="420" v="1">
 <attributes>
-<attribute name="_ref" value="22" v="0" al="6" x="655" y="200"/>
-<attribute name="_type" value="" v="0" al="6" x="655" y="240"/>
+<attribute name="_ref" value="14" v="0" al="6" x="1653" y="400"/>
+<attribute name="_type" value="" v="0" al="6" x="1653" y="440"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="720" y="580">
+<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="2000" y="620" sX="0.6667" sY="0.6613">
 <attributes>
-<attribute name="_ref" value="23" v="0" al="6" x="655" y="560"/>
-<attribute name="_type" value="" v="0" al="6" x="655" y="600"/>
+<attribute name="_ref" value="15" v="0" al="6" x="1945" y="600"/>
+<attribute name="_type" value="" v="0" al="6" x="1945" y="640"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1180" y="220">
+<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="2060" y="620" sX="0.6667" sY="0.6613">
 <attributes>
-<attribute name="_ref" value="24" v="0" al="6" x="1115" y="200"/>
-<attribute name="_type" value="" v="0" al="6" x="1115" y="240"/>
+<attribute name="_ref" value="16" v="0" al="6" x="2005" y="600"/>
+<attribute name="_type" value="" v="0" al="6" x="2005" y="640"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1180" y="580">
+<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="2120" y="620" sX="0.6667" sY="0.6613">
 <attributes>
-<attribute name="_ref" value="25" v="0" al="6" x="1115" y="560"/>
-<attribute name="_type" value="" v="0" al="6" x="1115" y="600"/>
+<attribute name="_ref" value="17" v="0" al="6" x="2065" y="600"/>
+<attribute name="_type" value="" v="0" al="6" x="2065" y="640"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1180" y="880">
+<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="2180" y="620" sX="0.6667" sY="0.6613">
 <attributes>
-<attribute name="_ref" value="26" v="0" al="6" x="1115" y="860"/>
-<attribute name="_type" value="" v="0" al="6" x="1115" y="900"/>
+<attribute name="_ref" value="18" v="0" al="6" x="2125" y="600"/>
+<attribute name="_type" value="" v="0" al="6" x="2125" y="640"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1180" y="880" a="-1800">
+<elem lG="eca3e0f3-f8f0-4bf1-a7c6-74ee417111ca" x="2100" y="860" sX="2.0000" sY="2.0000">
 <attributes>
-<attribute name="_ref" value="27" v="0" al="6" x="1115" y="860"/>
-<attribute name="_type" value="" v="0" al="6" x="1115" y="900"/>
+<attribute name="_ref" value="19" v="0" al="6" x="2055" y="840"/>
+<attribute name="_type" value="" v="0" al="6" x="2055" y="880"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1180" y="1120">
+<polyline pts="2080,840,2120,880,"/>
+<polyline pts="2120,840,2080,880,"/>
+<polyline pts="2100,880,2080,860,"/>
+<polyline pts="2100,880,2120,860,"/>
+<elem lG="a442a450-d3b0-464b-a83e-087f46573482" x="500" y="680" a="900">
 <attributes>
-<attribute name="_ref" value="6" v="0" al="6" x="1115" y="1100"/>
-<attribute name="_type" value="" v="0" al="6" x="1115" y="1140"/>
+<attribute name="_ref" value="B1" v="0" al="6" x="455" y="660"/>
+<attribute name="_type" value="" v="0" al="6" x="455" y="700"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1180" y="1120" a="-1800">
+<elem lG="a442a450-d3b0-464b-a83e-087f46573482" x="1700" y="1100" a="900">
 <attributes>
-<attribute name="_ref" value="7" v="0" al="6" x="1115" y="1100"/>
-<attribute name="_type" value="" v="0" al="6" x="1115" y="1140"/>
+<attribute name="_ref" value="B2" v="0" al="6" x="1655" y="1080"/>
+<attribute name="_type" value="" v="0" al="6" x="1655" y="1120"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1640" y="320">
+<elem lG="7753bc78-84ab-40f5-824c-890e6f64a6f2" x="1360" y="900" a="900">
 <attributes>
-<attribute name="_ref" value="8" v="0" al="6" x="1575" y="300"/>
-<attribute name="_type" value="" v="0" al="6" x="1575" y="340"/>
+<attribute name="_ref" value="20" v="0" al="6" x="1308" y="880"/>
+<attribute name="_type" value="" v="0" al="6" x="1308" y="920"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1640" y="320" a="-1800">
+<polyline pts="720,400,1000,400,1000,580,1000,580,"/>
+<polyline pts="1000,660,1000,840,820,840,"/>
+<polyline pts="1060,660,1060,1020,820,1020,"/>
+<polyline pts="1180,580,1180,220,1680,220,1680,220,"/>
+<polyline pts="1680,260,1240,260,1240,580,"/>
+<polyline pts="1120,180,1120,580,1120,580,"/>
+<polyline pts="1680,420,1300,420,1300,580,"/>
+<polyline pts="1180,660,1180,1180,"/>
+<polyline pts="700,1020,660,1020,660,1180,660,1180,"/>
+<polyline pts="700,840,580,840,580,1180,"/>
+<polyline op-lw="5" pts="1200,1180,220,1180,"/>
+<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="340" y="680" a="-900">
 <attributes>
-<attribute name="_ref" value="9" v="0" al="6" x="1575" y="300"/>
-<attribute name="_type" value="" v="0" al="6" x="1575" y="340"/>
+<attribute name="_ref" value="21" v="0" al="6" x="285" y="660"/>
+<attribute name="_type" value="" v="0" al="6" x="285" y="700"/>
 </attributes>
 </elem>
-<elem lG="3c6e41df-c582-4ee2-819c-eada1fe68c9a" x="2060" y="140">
+<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="1520" y="1100" a="-900">
 <attributes>
-<attribute name="_ref" value="28" v="0" al="6" x="2003" y="120"/>
-<attribute name="_type" value="" v="0" al="6" x="2003" y="160"/>
+<attribute name="_ref" value="22" v="0" al="6" x="1465" y="1080"/>
+<attribute name="_type" value="" v="0" al="6" x="1465" y="1120"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1840" y="320">
+<polyline op-lw="5" pts="1280,780,1500,780,"/>
+<polyline op-lw="5" pts="2040,760,2140,760,"/>
+<polyline pts="2100,820,2100,760,"/>
+<polyline pts="2120,660,2120,760,"/>
+<polyline pts="2060,660,2060,760,"/>
+<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1940" y="840" a="-900">
 <attributes>
-<attribute name="_ref" value="10" v="0" al="6" x="1775" y="300"/>
-<attribute name="_type" value="" v="0" al="6" x="1775" y="340"/>
+<attribute name="_ref" value="23" v="0" al="6" x="1875" y="820"/>
+<attribute name="_type" value="" v="0" al="6" x="1875" y="860"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1840" y="320" a="-1800">
+<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="2240" y="840" a="-900">
 <attributes>
-<attribute name="_ref" value="11" v="0" al="6" x="1775" y="300"/>
-<attribute name="_type" value="" v="0" al="6" x="1775" y="340"/>
+<attribute name="_ref" value="24" v="0" al="6" x="2175" y="820"/>
+<attribute name="_type" value="" v="0" al="6" x="2175" y="860"/>
 </attributes>
 </elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="2040" y="580">
-<attributes>
-<attribute name="_ref" value="12" v="0" al="6" x="1975" y="560"/>
-<attribute name="_type" value="" v="0" al="6" x="1975" y="600"/>
-</attributes>
-</elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1640" y="400" a="-1800">
-<attributes>
-<attribute name="_ref" value="13" v="0" al="6" x="1575" y="380"/>
-<attribute name="_type" value="" v="0" al="6" x="1575" y="420"/>
-</attributes>
-</elem>
-<elem lG="f336b6c7-2a92-4d90-b849-b50d13fa9941" x="1740" y="960" h="1" a="-1800">
-<attributes>
-<attribute name="_ref" value="14" v="0" al="6" x="1653" y="940"/>
-<attribute name="_type" value="" v="0" al="6" x="1653" y="980"/>
-</attributes>
-</elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1840" y="920" a="-1800">
-<attributes>
-<attribute name="_ref" value="29" v="0" al="6" x="1775" y="900"/>
-<attribute name="_type" value="" v="0" al="6" x="1775" y="940"/>
-</attributes>
-</elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="2040" y="1180">
-<attributes>
-<attribute name="_ref" value="30" v="0" al="6" x="1975" y="1160"/>
-<attribute name="_type" value="" v="0" al="6" x="1975" y="1200"/>
-</attributes>
-</elem>
-<text x="1741" y="261" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Multiplus-II 120V</text>
-<text x="1741" y="861" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Multiplus 120V</text>
-<polyline pts="1940,428,1940,458,"/>
-<polyline pts="1940,573,1940,518,"/>
-<polyline pts="1934,464,1946,452,"/>
-<polyline pts="1946,464,1934,452,"/>
-<polyline pts="1917,459,1940,518,"/>
-<ellipse left="1920" top="533" right="1960" bottom="553"/>
-<rect left="1850" top="468" right="1890" bottom="508"/>
-<polyline pts="1870,468,1870,508,"/>
-<polyline op-line-scale="0.500" pts="1850,488,1927,488,"/>
-<polyline op-line-scale="0.500" pts="1870,513,1870,543,1910,543,"/>
-<polyline pts="1940,1028,1940,1058,"/>
-<polyline pts="1940,1173,1940,1118,"/>
-<polyline pts="1934,1064,1946,1052,"/>
-<polyline pts="1946,1064,1934,1052,"/>
-<polyline pts="1917,1059,1940,1118,"/>
-<ellipse left="1920" top="1133" right="1960" bottom="1153"/>
-<rect left="1850" top="1068" right="1890" bottom="1108"/>
-<polyline pts="1870,1068,1870,1108,"/>
-<polyline op-line-scale="0.500" pts="1850,1088,1927,1088,"/>
-<polyline op-line-scale="0.500" pts="1870,1113,1870,1143,1910,1143,"/>
-<polyline pts="1300,220,1300,880,"/>
-<polyline pts="1600,320,1300,320,"/>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1640" y="920" a="-1800">
-<attributes>
-<attribute name="_ref" value="31" v="0" al="6" x="1575" y="900"/>
-<attribute name="_type" value="" v="0" al="6" x="1575" y="940"/>
-</attributes>
-</elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1640" y="1000">
-<attributes>
-<attribute name="_ref" value="32" v="0" al="6" x="1575" y="980"/>
-<attribute name="_type" value="" v="0" al="6" x="1575" y="1020"/>
-</attributes>
-</elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1640" y="1000" a="-1800">
-<attributes>
-<attribute name="_ref" value="33" v="0" al="6" x="1575" y="980"/>
-<attribute name="_type" value="" v="0" al="6" x="1575" y="1020"/>
-</attributes>
-</elem>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="1640" y="920">
-<attributes>
-<attribute name="_ref" value="34" v="0" al="6" x="1575" y="900"/>
-<attribute name="_type" value="" v="0" al="6" x="1575" y="940"/>
-</attributes>
-</elem>
-<polyline pts="760,220,820,220,"/>
-<polyline pts="820,580,760,580,"/>
-<polyline pts="940,580,1020,580,"/>
-<polyline pts="1300,220,1220,220,"/>
-<polyline pts="1300,580,1220,580,"/>
-<polyline pts="940,220,1020,220,"/>
-<polyline pts="1220,1120,1400,1120,"/>
-<polyline pts="1380,1000,1380,400,1560,400,1600,400,"/>
-<polyline pts="1800,400,1940,400,1940,440,1940,440,"/>
-<polyline pts="2000,580,1940,580,1940,560,"/>
-<polyline pts="2060,180,2060,320,1940,320,1880,320,"/>
-<elem lG="3c6e41df-c582-4ee2-819c-eada1fe68c9a" x="2060" y="780">
-<attributes>
-<attribute name="_ref" value="35" v="0" al="6" x="2003" y="760"/>
-<attribute name="_type" value="" v="0" al="6" x="2003" y="800"/>
-</attributes>
-</elem>
-<polyline pts="2060,820,2060,920,1940,920,1880,920,"/>
-<polyline pts="1800,1000,1940,1000,1940,1040,"/>
-<polyline pts="2000,1180,1940,1180,1940,1160,"/>
-<polyline pts="1600,920,1420,920,1420,1000,"/>
-<elem lG="9842b8b7-9109-48ee-b1ea-6e73b4160679" x="1560" y="1180">
-<attributes>
-<attribute name="_ref" value="36" v="0" al="6" x="1505" y="1160"/>
-<attribute name="_type" value="" v="0" al="6" x="1505" y="1200"/>
-</attributes>
-</elem>
-<polyline pts="1560,1120,1560,1000,1600,1000,"/>
-<elem lG="9055ffc6-573d-4caa-8a7a-80d98a8f2329" x="2040" y="1280">
-<attributes>
-<attribute name="_ref" value="37" v="0" al="6" x="1975" y="1260"/>
-<attribute name="_type" value="" v="0" al="6" x="1975" y="1300"/>
-</attributes>
-</elem>
-<polyline pts="2000,1280,1560,1280,1560,1240,"/>
-<text x="2061" y="61" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Red UDENAR</text>
-<text x="2061" y="701" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Red UDENAR</text>
-<text x="2061" y="341" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Red 1N~120V, 60Hz</text>
-<text x="2061" y="941" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Red 1N~120V, 60Hz</text>
-<text x="2081" y="541" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Out 1N~120V, 60Hz</text>
-<text x="1061" y="1061" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">GreenPoint 3.6 Kwh</text>
-<text x="1061" y="821" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Pylontech 2.3 Kwh</text>
-<elem lG="a442a450-d3b0-464b-a83e-087f46573482" x="1060" y="1120">
-<attributes>
-<attribute name="_ref" value="B2" v="0" al="6" x="1015" y="1100"/>
-<attribute name="_type" value="" v="0" al="6" x="1015" y="1140"/>
-</attributes>
-</elem>
-<rect left="980" top="1080" right="1140" bottom="1160"/>
-<polyline pts="1040,1120,1000,1120,"/>
-<polyline pts="1080,1120,1120,1120,"/>
-<text x="1281" y="761" a="900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">48 V DC</text>
-<text x="1061" y="941" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">48 V DC</text>
-<text x="1061" y="1181" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">24 V DC</text>
-<text x="1501" y="901" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">24 V DC</text>
-<text x="1801" y="1261" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">24 V DC Bus experimental</text>
-<text x="2081" y="1141" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Out 1N~120V, 60Hz</text>
-<polyline pts="1300,880,1220,880,"/>
-<text x="1281" y="381" a="900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">48 V DC</text>
-<text x="1501" y="421" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">24 V DC</text>
-<text x="761" y="561" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 14</text>
-<text x="761" y="201" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 8</text>
-<text x="1201" y="201" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 6</text>
-<text x="1201" y="561" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 8</text>
-<text x="1201" y="861" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 6</text>
-<text x="1601" y="301" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 6</text>
-<text x="1601" y="381" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 18</text>
-<text x="1601" y="901" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 6</text>
-<text x="1601" y="981" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 6</text>
-<text x="1881" y="301" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 6</text>
-<text x="1881" y="381" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 3</text>
-<text x="1881" y="901" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 6</text>
-<text x="1881" y="981" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 3</text>
-<text x="881" y="261" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">40 A DC</text>
-<text x="881" y="621" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">20 A DC</text>
-<text x="1241" y="1101" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AWG 6</text>
-<text x="1501" y="1161" a="750" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">20 A DC</text>
+<polyline pts="2000,660,2000,760,1940,760,1940,800,"/>
+<polyline pts="2180,660,2180,760,2240,760,2240,800,"/>
+<polyline pts="500,660,500,620,"/>
+<polyline pts="500,700,500,740,"/>
+<polyline pts="1700,1080,1700,1040,"/>
+<polyline pts="1700,1120,1700,1160,"/>
+<rect left="460" top="600" right="540" bottom="760"/>
+<rect left="1660" top="1020" right="1740" bottom="1180"/>
+<polyline pts="1120,660,1120,1180,"/>
+<polyline pts="1060,160,940,160,940,980,820,980,820,980,">
+<op-lt head="dash dot (.5x), _._._._._._._._._._._._._._._." body="A,.25,-.125,0,-.125"/>
+</polyline>
+<polyline pts="1060,140,900,140,900,800,820,800,">
+<op-lt head="dash dot (.5x), _._._._._._._._._._._._._._._." body="A,.25,-.125,0,-.125"/>
+</polyline>
+<polyline pts="1800,440,2000,440,2000,580,"/>
+<polyline pts="1800,400,2060,400,2060,580,"/>
+<polyline pts="1800,240,2100,240,2120,240,2120,580,"/>
+<polyline pts="1800,200,2180,200,2180,580,"/>
+<polyline pts="340,220,1060,220,1060,580,"/>
+<polyline pts="340,400,440,400,"/>
+<polyline pts="560,400,600,400,"/>
+<rect left="960" top="560" right="1340" bottom="680"/>
+<rect left="1940" top="560" right="2220" bottom="680"/>
+<text x="1121" y="140" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">CERBO GX</text>
+<polyline pts="1180,120,1620,120,1620,180,1680,180,">
+<op-lt head="dash dot (.5x), _._._._._._._._._._._._._._._." body="A,.25,-.125,0,-.125"/>
+</polyline>
+<text x="1741" y="140" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Multiplus || 5 kW</text>
+<text x="1741" y="340" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Multiplus 3 kW</text>
+<polyline pts="1800,260,1860,260,1860,380,1800,380,1800,380,">
+<op-lt head="dash dot (.5x), _._._._._._._._._._._._._._._." body="A,.25,-.125,0,-.125"/>
+</polyline>
+<text x="281" y="140" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">PV 1 kW</text>
+<text x="281" y="320" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Aerogenerador 3 kW</text>
+<text x="521" y="340" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Freno</text>
+<text x="701" y="320" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">ENAIR</text>
+<text x="761" y="760" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">MPPT 150|45</text>
+<text x="761" y="940" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">MPPT 150|35</text>
+<polyline pts="1060,120,860,120,860,680,540,680,">
+<op-lt head="dash dot (.5x), _._._._._._._._._._._._._._._." body="A,.25,-.125,0,-.125"/>
+</polyline>
+<polyline pts="1240,660,1240,920,1300,920,"/>
+<polyline pts="1300,660,1300,780,1300,780,"/>
+<polyline pts="1300,780,1300,880,"/>
+<text x="1701" y="1000" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Pylontech 2.8 kW</text>
+<text x="501" y="580" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Pylontech 2.4 kW</text>
+<text x="2101" y="900" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">RED</text>
+<text x="2241" y="900" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Carga</text>
+<text x="2241" y="920" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Prioritaria</text>
+<text x="2241" y="940" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">5 kW</text>
+<text x="1941" y="900" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Carga</text>
+<text x="1941" y="920" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Prioritaria</text>
+<text x="1941" y="940" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">3 kW</text>
+<text x="1121" y="80" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Medidor</text>
+<polyline pts="1580,1100,1660,1100,"/>
+<polyline pts="1420,900,1420,1100,1460,1100,"/>
+<polyline pts="400,680,460,680,"/>
+<polyline pts="280,680,240,680,240,1180,"/>
+<text x="421" y="1160" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Barraje 48 V DC</text>
+<text x="861" y="1160" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Barraje 48 V DC</text>
+<text x="1401" y="760" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">Barraje 24 V DC</text>
+<text x="401" y="200" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">80 V DC</text>
+<text x="781" y="380" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">60 V DC</text>
+<text x="1541" y="200" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">48 V DC</text>
+<text x="1541" y="240" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">24 V DC</text>
+<text x="1541" y="400" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">24 V DC</text>
+<text x="1961" y="180" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">1N(120 V, 60Hz)</text>
+<text x="1961" y="220" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">1N(120 V, 60Hz)</text>
+<text x="1961" y="380" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">1N(120 V, 60Hz)</text>
+<text x="1961" y="420" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">1N(120 V, 60Hz)</text>
+<polyline pts="1660,1060,1580,1060,1580,480,1360,480,1360,160,1180,160,">
+<op-lt head="dash dot (.5x), _._._._._._._._._._._._._._._." body="A,.25,-.125,0,-.125"/>
+</polyline>
+<text x="1401" y="1000" a="900" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">24 V DC</text>
+<text x="601" y="660" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">CAN</text>
+<text x="1621" y="1040" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">CAN</text>
+<text x="861" y="780" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">VE</text>
+<text x="861" y="960" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">VE</text>
+<text x="1381" y="100" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">RJ45</text>
+<text x="1901" y="320" a="900" f="60,0,0,0,Lucida Sans Unicode,000000" al="9">RJ45</text>
 </layer>
 </layers>
 </page>
