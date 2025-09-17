@@ -4,7 +4,7 @@
 <PrintReportSettings paper_size_enum="9" sheet_size_x="210" sheet_size_y="297" color_bg_even="15727333" color_bg_header="8454143" color_grid="16777215"/>
 <PrinterSettings PaperSizeX="2770" PaperSizeY="1900" PhysicalOffestTenthMm_X="29" PhysicalOffestTenthMm_Y="30"/>
 <tb use="0" name="C:\Users\Public\Documents\ProfiCAD Library\_TB\standard9.ptb"/>
-<PageSettings bgColor="FFFFFF" zoom="75" frame="YES" showT="YES" showV="YES" includeMargins="YES"/>
+<PageSettings bgColor="FFFFFF" zoom="50" frame="YES" showT="YES" showV="YES" includeMargins="YES"/>
 <RefGridSettings FieldSize="50"/>
 <NumberingWire Over="1" Digits="3" TypeRenumbering="0" ShowWireName="0" WireLabelDist_a="4" WireLabelDist_b="10" WireLabelDist_c="7"/>
 <summary>
@@ -894,6 +894,7 @@
 <polyline pts="1680,2300,1680,2400,"/>
 <text x="1681" y="2580" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">µ Inversor</text>
 <polyline pts="1380,1500,1560,1500,1560,1500,"/>
+<polyline pts="1640,1500,1800,1500,1800,2120,1700,2120,1700,2180,1700,2180,"/>
 <elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="900" y="1640" sX="0.6667" sY="0.7097">
 <attributes>
 <attribute name="_ref" value="96" v="0" al="6" x="845" y="1620"/>
@@ -916,7 +917,6 @@
 </elem>
 <polyline pts="900,1680,900,1740,"/>
 <polyline pts="900,1600,900,1500,720,1500,"/>
-<polyline pts="1640,1500,1760,1500,1760,2120,1700,2120,1700,2180,"/>
 </layer>
 </layers>
 </page>
