@@ -4,7 +4,7 @@
 <PrintReportSettings paper_size_enum="9" sheet_size_x="210" sheet_size_y="297" color_bg_even="15727333" color_bg_header="8454143" color_grid="16777215"/>
 <PrinterSettings PaperSizeX="2770" PaperSizeY="1900" PhysicalOffestTenthMm_X="29" PhysicalOffestTenthMm_Y="30"/>
 <tb use="0" name="C:\Users\Public\Documents\ProfiCAD Library\_TB\standard9.ptb"/>
-<PageSettings bgColor="FFFFFF" zoom="50" frame="YES" showT="YES" showV="YES" includeMargins="YES"/>
+<PageSettings bgColor="FFFFFF" zoom="150" frame="YES" showT="YES" showV="YES" includeMargins="YES"/>
 <RefGridSettings FieldSize="50"/>
 <NumberingWire Over="1" Digits="3" TypeRenumbering="0" ShowWireName="0" WireLabelDist_a="4" WireLabelDist_b="10" WireLabelDist_c="7"/>
 <summary>
@@ -769,51 +769,21 @@
 <attribute name="_type" value="" v="0" al="6" x="685" y="2420"/>
 </attributes>
 </elem>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="680" y="2400" sX="0.6667" sY="0.7097">
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="580" y="2400" sX="0.6667" sY="0.7097">
 <attributes>
-<attribute name="_ref" value="90" v="0" al="6" x="625" y="2380"/>
-<attribute name="_type" value="" v="0" al="6" x="625" y="2420"/>
+<attribute name="_ref" value="92" v="0" al="6" x="525" y="2380"/>
+<attribute name="_type" value="" v="0" al="6" x="525" y="2420"/>
 </attributes>
 </elem>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="620" y="2400" sX="0.6667" sY="0.7097">
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="460" y="2400" sX="0.6667" sY="0.7097">
 <attributes>
-<attribute name="_ref" value="91" v="0" al="6" x="565" y="2380"/>
-<attribute name="_type" value="" v="0" al="6" x="565" y="2420"/>
-</attributes>
-</elem>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="560" y="2400" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="92" v="0" al="6" x="505" y="2380"/>
-<attribute name="_type" value="" v="0" al="6" x="505" y="2420"/>
-</attributes>
-</elem>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="500" y="2400" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="93" v="0" al="6" x="445" y="2380"/>
-<attribute name="_type" value="" v="0" al="6" x="445" y="2420"/>
-</attributes>
-</elem>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="440" y="2400" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="94" v="0" al="6" x="385" y="2380"/>
-<attribute name="_type" value="" v="0" al="6" x="385" y="2420"/>
-</attributes>
-</elem>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="380" y="2400" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="95" v="0" al="6" x="325" y="2380"/>
-<attribute name="_type" value="" v="0" al="6" x="325" y="2420"/>
+<attribute name="_ref" value="95" v="0" al="6" x="405" y="2380"/>
+<attribute name="_type" value="" v="0" al="6" x="405" y="2420"/>
 </attributes>
 </elem>
 <polyline pts="700,2440,700,2540,"/>
 <polyline pts="580,2440,580,2540,"/>
 <polyline pts="460,2440,460,2540,"/>
-<polyline pts="740,2440,680,2440,"/>
-<polyline pts="620,2440,560,2440,"/>
-<polyline pts="500,2440,380,2440,"/>
-<polyline pts="380,2360,380,2020,1040,2020,1040,1620,1040,1620,"/>
-<polyline op-lc="26367" pts="1360,1760,1360,2060,440,2060,440,2360,440,2320,560,2320,560,2360,560,2320,680,2320,680,2360,680,2360,"/>
-<polyline op-lc="16711680" pts="1560,1760,1560,2100,500,2100,500,2360,500,2300,620,2300,620,2360,620,2300,740,2300,740,2360,"/>
 <polyline pts="1340,1540,1340,1600,"/>
 <polyline pts="1360,1680,1360,1600,"/>
 <polyline pts="1560,1600,1560,1680,"/>
@@ -894,7 +864,6 @@
 <polyline pts="1680,2300,1680,2400,"/>
 <text x="1681" y="2580" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">µ Inversor</text>
 <polyline pts="1380,1500,1560,1500,1560,1500,"/>
-<polyline pts="1640,1500,1800,1500,1800,2120,1700,2120,1700,2180,1700,2180,"/>
 <elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="900" y="1640" sX="0.6667" sY="0.7097">
 <attributes>
 <attribute name="_ref" value="96" v="0" al="6" x="845" y="1620"/>
@@ -917,6 +886,7 @@
 </elem>
 <polyline pts="900,1680,900,1740,"/>
 <polyline pts="900,1600,900,1500,720,1500,"/>
+<polyline pts="1640,1500,1760,1500,1760,2120,1700,2120,1700,2180,"/>
 </layer>
 </layers>
 </page>
