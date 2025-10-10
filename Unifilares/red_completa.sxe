@@ -430,14 +430,14 @@
 </attributes>
 </elem>
 <text x="201" y="1500" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">12.5 kW</text>
-<text x="201" y="1520" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ABB</text>
-<elem lG="376de820-fa0c-4b99-b181-d6d7fd1aaaf6" x="280" y="1680">
+<text x="201" y="1480" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ABB</text>
+<elem lG="376de820-fa0c-4b99-b181-d6d7fd1aaaf6" x="280" y="1720">
 <attributes>
-<attribute name="_ref" value="33" v="0" al="6" x="213" y="1660"/>
-<attribute name="_type" value="" v="0" al="6" x="213" y="1700"/>
+<attribute name="_ref" value="33" v="0" al="6" x="213" y="1700"/>
+<attribute name="_type" value="" v="0" al="6" x="213" y="1740"/>
 </attributes>
 </elem>
-<text x="281" y="1740" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">10 kW</text>
+<text x="281" y="1780" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">10 kW</text>
 <elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="480" y="1220" sX="0.6667" sY="0.7097">
 <attributes>
 <attribute name="_ref" value="36" v="0" al="6" x="425" y="1200"/>
@@ -470,128 +470,115 @@
 </attributes>
 </elem>
 <text x="401" y="1500" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">10 kW</text>
-<text x="401" y="1520" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Infin</text>
-<elem lG="376de820-fa0c-4b99-b181-d6d7fd1aaaf6" x="480" y="1680">
+<text x="401" y="1480" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Infin</text>
+<elem lG="376de820-fa0c-4b99-b181-d6d7fd1aaaf6" x="480" y="1720">
 <attributes>
-<attribute name="_ref" value="41" v="0" al="6" x="413" y="1660"/>
-<attribute name="_type" value="" v="0" al="6" x="413" y="1700"/>
+<attribute name="_ref" value="41" v="0" al="6" x="413" y="1700"/>
+<attribute name="_type" value="" v="0" al="6" x="413" y="1740"/>
 </attributes>
 </elem>
-<text x="481" y="1740" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">10 kW</text>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="680" y="1220" sX="0.6667" sY="0.7097">
+<text x="481" y="1780" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">10 kW</text>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1020" y="1220" sX="0.6667" sY="0.7097">
 <attributes>
-<attribute name="_ref" value="47" v="0" al="6" x="625" y="1200"/>
-<attribute name="_type" value="" v="0" al="6" x="625" y="1240"/>
+<attribute name="_ref" value="47" v="0" al="6" x="965" y="1200"/>
+<attribute name="_type" value="" v="0" al="6" x="965" y="1240"/>
 </attributes>
 </elem>
-<elem lG="4e09a6b8-4be0-4e4d-b98c-ef594e82475d" x="680" y="1380" a="-1800" sX="0.9524" sY="0.9375">
+<elem lG="4e09a6b8-4be0-4e4d-b98c-ef594e82475d" x="1020" y="1380" a="-1800" sX="0.9524" sY="0.9375">
 <attributes>
-<attribute name="_ref" value="K3" v="0" al="6" x="613" y="1360"/>
-<attribute name="_type" value="" v="0" al="6" x="613" y="1400"/>
+<attribute name="_ref" value="K3" v="0" al="6" x="953" y="1360"/>
+<attribute name="_type" value="" v="0" al="6" x="953" y="1400"/>
 </attributes>
 </elem>
-<text x="741" y="1300" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">1φ</text>
-<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="680" y="1300">
+<text x="1081" y="1300" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">1φ</text>
+<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="1020" y="1300">
 <attributes>
-<attribute name="_ref" value="49" v="0" al="6" x="645" y="1280"/>
-<attribute name="_type" value="" v="0" al="6" x="645" y="1320"/>
+<attribute name="_ref" value="49" v="0" al="6" x="985" y="1280"/>
+<attribute name="_type" value="" v="0" al="6" x="985" y="1320"/>
 </attributes>
 </elem>
-<text x="681" y="1380" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ET112</text>
-<elem lG="cf0708d5-ea40-459e-9e6b-1fdc3caad39b" x="680" y="1500" a="-1800" sX="0.6452" sY="0.6429">
+<text x="1021" y="1380" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">DDS661</text>
+<elem lG="cf0708d5-ea40-459e-9e6b-1fdc3caad39b" x="1020" y="1500" a="-1800" sX="0.6452" sY="0.6429">
 <attributes>
-<attribute name="_ref" value="48" v="0" al="6" x="593" y="1480"/>
-<attribute name="_type" value="" v="0" al="6" x="593" y="1520"/>
+<attribute name="_ref" value="48" v="0" al="6" x="933" y="1480"/>
+<attribute name="_type" value="" v="0" al="6" x="933" y="1520"/>
 </attributes>
 </elem>
-<text x="581" y="1480" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">3 kW</text>
-<text x="581" y="1500" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Multiplus</text>
-<elem lG="376de820-fa0c-4b99-b181-d6d7fd1aaaf6" x="700" y="2580">
+<text x="921" y="1500" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">3 kW</text>
+<text x="921" y="1480" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Multiplus</text>
+<elem lG="376de820-fa0c-4b99-b181-d6d7fd1aaaf6" x="1600" y="2480">
 <attributes>
-<attribute name="_ref" value="50" v="0" al="6" x="633" y="2560"/>
-<attribute name="_type" value="" v="0" al="6" x="633" y="2600"/>
+<attribute name="_ref" value="50" v="0" al="6" x="1533" y="2460"/>
+<attribute name="_type" value="" v="0" al="6" x="1533" y="2500"/>
 </attributes>
 </elem>
-<text x="701" y="2640" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">330 W</text>
-<polyline op-lw="4" pts="860,1600,620,1600,"/>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="800" y="1660" sX="0.6667" sY="0.7097">
+<text x="1601" y="2540" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">330 W</text>
+<polyline op-lw="4" pts="1340,1600,960,1600,"/>
+<elem lG="a442a450-d3b0-464b-a83e-087f46573482" x="1160" y="1740" a="-900">
 <attributes>
-<attribute name="_ref" value="56" v="0" al="6" x="745" y="1640"/>
-<attribute name="_type" value="" v="0" al="6" x="745" y="1680"/>
+<attribute name="_ref" value="B2" v="0" al="6" x="1115" y="1720"/>
+<attribute name="_type" value="" v="0" al="6" x="1115" y="1760"/>
 </attributes>
 </elem>
-<elem lG="a442a450-d3b0-464b-a83e-087f46573482" x="800" y="1800" a="-900">
+<elem lG="78a820b3-d35f-405b-a083-591a96268938" x="1300" y="1720" sX="0.6452" sY="0.6452">
 <attributes>
-<attribute name="_ref" value="B2" v="0" al="6" x="755" y="1780"/>
-<attribute name="_type" value="" v="0" al="6" x="755" y="1820"/>
+<attribute name="_ref" value="57" v="0" al="6" x="1213" y="1700"/>
+<attribute name="_type" value="" v="0" al="6" x="1213" y="1740"/>
 </attributes>
 </elem>
-<elem lG="78a820b3-d35f-405b-a083-591a96268938" x="1360" y="1720" sX="0.6452" sY="0.6452">
+<rect left="1120" top="1680" right="1200" bottom="1800"/>
+<polyline pts="1160,1700,1160,1720,"/>
+<polyline pts="1160,1760,1160,1780,"/>
+<text x="1161" y="1820" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">MUST</text>
+<text x="1241" y="1720" a="900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Flexmax 60</text>
+<text x="1161" y="1580" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">24 V DC</text>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1560" y="1220" sX="0.6667" sY="0.7097">
 <attributes>
-<attribute name="_ref" value="57" v="0" al="6" x="1273" y="1700"/>
-<attribute name="_type" value="" v="0" al="6" x="1273" y="1740"/>
+<attribute name="_ref" value="59" v="0" al="6" x="1505" y="1200"/>
+<attribute name="_type" value="" v="0" al="6" x="1505" y="1240"/>
 </attributes>
 </elem>
-<rect left="760" top="1740" right="840" bottom="1860"/>
-<polyline pts="800,1760,800,1780,"/>
-<polyline pts="800,1820,800,1840,"/>
-<text x="801" y="1880" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">MUST</text>
-<text x="1281" y="1700" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Flexmax</text>
-<text x="741" y="1580" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">24 V DC</text>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1340" y="1220" sX="0.6667" sY="0.7097">
+<elem lG="4e09a6b8-4be0-4e4d-b98c-ef594e82475d" x="1560" y="1380" a="-1800" sX="0.9524" sY="0.9375">
 <attributes>
-<attribute name="_ref" value="59" v="0" al="6" x="1285" y="1200"/>
-<attribute name="_type" value="" v="0" al="6" x="1285" y="1240"/>
+<attribute name="_ref" value="K4" v="0" al="6" x="1493" y="1360"/>
+<attribute name="_type" value="" v="0" al="6" x="1493" y="1400"/>
 </attributes>
 </elem>
-<elem lG="4e09a6b8-4be0-4e4d-b98c-ef594e82475d" x="1340" y="1380" a="-1800" sX="0.9524" sY="0.9375">
+<text x="1621" y="1300" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">1φ</text>
+<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="1560" y="1300">
 <attributes>
-<attribute name="_ref" value="K4" v="0" al="6" x="1273" y="1360"/>
-<attribute name="_type" value="" v="0" al="6" x="1273" y="1400"/>
+<attribute name="_ref" value="60" v="0" al="6" x="1525" y="1280"/>
+<attribute name="_type" value="" v="0" al="6" x="1525" y="1320"/>
 </attributes>
 </elem>
-<text x="1381" y="1300" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">1φ</text>
-<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="1340" y="1300">
+<text x="1561" y="1380" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">DDS661</text>
+<elem lG="cf0708d5-ea40-459e-9e6b-1fdc3caad39b" x="1560" y="1500" a="-1800" sX="0.6452" sY="0.6429">
 <attributes>
-<attribute name="_ref" value="60" v="0" al="6" x="1305" y="1280"/>
-<attribute name="_type" value="" v="0" al="6" x="1305" y="1320"/>
+<attribute name="_ref" value="61" v="0" al="6" x="1473" y="1480"/>
+<attribute name="_type" value="" v="0" al="6" x="1473" y="1520"/>
 </attributes>
 </elem>
-<text x="1341" y="1380" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ET112</text>
-<elem lG="cf0708d5-ea40-459e-9e6b-1fdc3caad39b" x="1340" y="1500" a="-1800" sX="0.6452" sY="0.6429">
+<text x="1461" y="1500" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">3 kW</text>
+<text x="1461" y="1480" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Multiplus II</text>
+<polyline op-lw="4" pts="1720,1600,1460,1600,"/>
+<text x="1641" y="1580" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">48 V DC</text>
+<elem lG="78a820b3-d35f-405b-a083-591a96268938" x="1540" y="1720" sX="0.6452" sY="0.6452">
 <attributes>
-<attribute name="_ref" value="61" v="0" al="6" x="1253" y="1480"/>
-<attribute name="_type" value="" v="0" al="6" x="1253" y="1520"/>
+<attribute name="_ref" value="72" v="0" al="6" x="1453" y="1700"/>
+<attribute name="_type" value="" v="0" al="6" x="1453" y="1740"/>
 </attributes>
 </elem>
-<text x="1241" y="1480" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">3 kW</text>
-<text x="1241" y="1500" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Multiplus II</text>
-<polyline op-lw="4" pts="1700,1600,1280,1600,"/>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1680" y="1660" sX="0.6667" sY="0.7097">
+<text x="1481" y="1720" a="900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">150 | 35</text>
+<elem lG="a442a450-d3b0-464b-a83e-087f46573482" x="1700" y="1740" a="-900">
 <attributes>
-<attribute name="_ref" value="67" v="0" al="6" x="1625" y="1640"/>
-<attribute name="_type" value="" v="0" al="6" x="1625" y="1680"/>
+<attribute name="_ref" value="B1" v="0" al="6" x="1655" y="1720"/>
+<attribute name="_type" value="" v="0" al="6" x="1655" y="1760"/>
 </attributes>
 </elem>
-<text x="1441" y="1580" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">48 V DC</text>
-<elem lG="78a820b3-d35f-405b-a083-591a96268938" x="1560" y="1720" sX="0.6452" sY="0.6452">
-<attributes>
-<attribute name="_ref" value="72" v="0" al="6" x="1473" y="1700"/>
-<attribute name="_type" value="" v="0" al="6" x="1473" y="1740"/>
-</attributes>
-</elem>
-<text x="1461" y="1720" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">150 | 35</text>
-<text x="1461" y="1700" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">VICTRON</text>
-<elem lG="a442a450-d3b0-464b-a83e-087f46573482" x="1680" y="1800" a="-900">
-<attributes>
-<attribute name="_ref" value="B1" v="0" al="6" x="1635" y="1780"/>
-<attribute name="_type" value="" v="0" al="6" x="1635" y="1820"/>
-</attributes>
-</elem>
-<rect left="1640" top="1740" right="1720" bottom="1860"/>
-<polyline pts="1680,1760,1680,1780,"/>
-<polyline pts="1680,1820,1680,1840,"/>
-<text x="1681" y="1880" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Pylontech</text>
+<rect left="1660" top="1680" right="1740" bottom="1800"/>
+<polyline pts="1700,1700,1700,1720,"/>
+<polyline pts="1700,1760,1700,1780,"/>
+<text x="1701" y="1820" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Pylontech</text>
 <polyline pts="920,60,920,100,"/>
 <polyline pts="920,180,920,220,"/>
 <polyline pts="920,300,920,420,"/>
@@ -649,247 +636,255 @@
 <polyline pts="280,1260,280,1460,"/>
 <polyline pts="480,1140,480,1180,"/>
 <polyline pts="480,1260,480,1460,"/>
-<polyline pts="680,1140,680,1180,"/>
-<polyline pts="1340,1140,1340,1180,"/>
-<polyline pts="280,1540,280,1640,"/>
-<polyline pts="480,1540,480,1640,"/>
+<polyline pts="1020,1140,1020,1180,"/>
+<polyline pts="1560,1140,1560,1180,"/>
 <text x="761" y="1060" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">3φ</text>
-<elem lG="cf0708d5-ea40-459e-9e6b-1fdc3caad39b" x="680" y="1720" sX="0.6452" sY="0.6429">
+<elem lG="cf0708d5-ea40-459e-9e6b-1fdc3caad39b" x="1020" y="1720" sX="0.6452" sY="0.6429">
 <attributes>
-<attribute name="_ref" value="73" v="0" al="6" x="593" y="1700"/>
-<attribute name="_type" value="" v="0" al="6" x="593" y="1740"/>
+<attribute name="_ref" value="73" v="0" al="6" x="933" y="1700"/>
+<attribute name="_type" value="" v="0" al="6" x="933" y="1740"/>
 </attributes>
 </elem>
-<text x="681" y="1980" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">3.7 kW</text>
-<elem lG="6980e833-8667-4eb0-a942-5b07bddb5ff9" x="680" y="1920" sX="0.6452" sY="0.6452">
+<text x="1021" y="1980" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">3.7 kW</text>
+<elem lG="6980e833-8667-4eb0-a942-5b07bddb5ff9" x="1020" y="1920" sX="0.6452" sY="0.6452">
 <attributes>
-<attribute name="_ref" value="74" v="0" al="6" x="593" y="1900"/>
-<attribute name="_type" value="" v="0" al="6" x="593" y="1940"/>
+<attribute name="_ref" value="74" v="0" al="6" x="933" y="1900"/>
+<attribute name="_type" value="" v="0" al="6" x="933" y="1940"/>
 </attributes>
 </elem>
-<text x="601" y="1720" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ENAIR</text>
-<polyline pts="680,1540,680,1600,"/>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="680" y="1820" sX="0.6667" sY="0.7097">
+<text x="941" y="1720" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ENAIR</text>
+<polyline pts="1020,1540,1020,1600,"/>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1020" y="1820" sX="0.6667" sY="0.7097">
 <attributes>
-<attribute name="_ref" value="53" v="0" al="6" x="625" y="1800"/>
-<attribute name="_type" value="" v="0" al="6" x="625" y="1840"/>
+<attribute name="_ref" value="53" v="0" al="6" x="965" y="1800"/>
+<attribute name="_type" value="" v="0" al="6" x="965" y="1840"/>
 </attributes>
 </elem>
-<polyline pts="680,1760,680,1780,"/>
-<polyline pts="680,1860,680,1880,"/>
-<polyline pts="800,1700,800,1740,"/>
-<polyline pts="800,1620,800,1600,"/>
-<polyline pts="680,1600,680,1680,"/>
-<elem lG="376de820-fa0c-4b99-b181-d6d7fd1aaaf6" x="460" y="2580">
+<polyline pts="1020,1760,1020,1780,"/>
+<polyline pts="1020,1860,1020,1880,"/>
+<polyline pts="1020,1600,1020,1680,"/>
+<elem lG="376de820-fa0c-4b99-b181-d6d7fd1aaaf6" x="1000" y="2480">
 <attributes>
-<attribute name="_ref" value="79" v="0" al="6" x="393" y="2560"/>
-<attribute name="_type" value="" v="0" al="6" x="393" y="2600"/>
+<attribute name="_ref" value="79" v="0" al="6" x="933" y="2460"/>
+<attribute name="_type" value="" v="0" al="6" x="933" y="2500"/>
 </attributes>
 </elem>
-<text x="461" y="2640" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">800 W</text>
-<elem lG="376de820-fa0c-4b99-b181-d6d7fd1aaaf6" x="580" y="2580">
+<text x="1001" y="2540" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">800 W</text>
+<elem lG="376de820-fa0c-4b99-b181-d6d7fd1aaaf6" x="1480" y="2480">
 <attributes>
-<attribute name="_ref" value="80" v="0" al="6" x="513" y="2560"/>
-<attribute name="_type" value="" v="0" al="6" x="513" y="2600"/>
+<attribute name="_ref" value="80" v="0" al="6" x="1413" y="2460"/>
+<attribute name="_type" value="" v="0" al="6" x="1413" y="2500"/>
 </attributes>
 </elem>
-<text x="581" y="2640" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">330 W</text>
+<text x="1481" y="2540" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">330 W</text>
+<polyline pts="1020,1260,1020,1360,"/>
+<polyline pts="1020,1400,1020,1460,"/>
+<polyline pts="1560,1260,1560,1360,"/>
+<polyline pts="1560,1400,1560,1460,"/>
+<text x="1161" y="1840" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">5.1 kW</text>
+<text x="1701" y="1840" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">4.8 kW</text>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1180" y="2300" sX="0.6667" sY="0.7097">
+<attributes>
+<attribute name="_ref" value="86" v="0" al="6" x="1125" y="2280"/>
+<attribute name="_type" value="" v="0" al="6" x="1125" y="2320"/>
+</attributes>
+</elem>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1120" y="2300" sX="0.6667" sY="0.7097">
+<attributes>
+<attribute name="_ref" value="92" v="0" al="6" x="1065" y="2280"/>
+<attribute name="_type" value="" v="0" al="6" x="1065" y="2320"/>
+</attributes>
+</elem>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1000" y="2300" sX="0.6667" sY="0.7097">
+<attributes>
+<attribute name="_ref" value="95" v="0" al="6" x="945" y="2280"/>
+<attribute name="_type" value="" v="0" al="6" x="945" y="2320"/>
+</attributes>
+</elem>
+<polyline pts="1000,2340,1000,2440,"/>
+<polyline pts="1560,1540,1560,1600,"/>
+<polyline pts="1540,1600,1540,1680,"/>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1780" y="1500" a="900" sX="0.6667" sY="0.6452">
+<attributes>
+<attribute name="_ref" value="34" v="0" al="6" x="1725" y="1480"/>
+<attribute name="_type" value="" v="0" al="6" x="1725" y="1520"/>
+</attributes>
+</elem>
+<text x="1661" y="1460" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">1φ</text>
+<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="1660" y="1500">
+<attributes>
+<attribute name="_ref" value="35" v="0" al="6" x="1625" y="1480"/>
+<attribute name="_type" value="" v="0" al="6" x="1625" y="1520"/>
+</attributes>
+</elem>
+<polyline op-lw="4" pts="1740,2020,1440,2020,"/>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1480" y="2100" sX="0.6667" sY="0.7097">
+<attributes>
+<attribute name="_ref" value="42" v="0" al="6" x="1425" y="2080"/>
+<attribute name="_type" value="" v="0" al="6" x="1425" y="2120"/>
+</attributes>
+</elem>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1700" y="2100" sX="0.6667" sY="0.7097">
+<attributes>
+<attribute name="_ref" value="43" v="0" al="6" x="1645" y="2080"/>
+<attribute name="_type" value="" v="0" al="6" x="1645" y="2120"/>
+</attributes>
+</elem>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1600" y="2100" sX="0.6667" sY="0.7097">
+<attributes>
+<attribute name="_ref" value="44" v="0" al="6" x="1545" y="2080"/>
+<attribute name="_type" value="" v="0" al="6" x="1545" y="2120"/>
+</attributes>
+</elem>
+<elem lG="cf0708d5-ea40-459e-9e6b-1fdc3caad39b" x="1480" y="2260" a="-1800" sX="0.6452" sY="0.6429">
+<attributes>
+<attribute name="_ref" value="45" v="0" al="6" x="1393" y="2240"/>
+<attribute name="_type" value="" v="0" al="6" x="1393" y="2280"/>
+</attributes>
+</elem>
+<elem lG="cf0708d5-ea40-459e-9e6b-1fdc3caad39b" x="1600" y="2260" a="-1800" sX="0.6452" sY="0.6429">
+<attributes>
+<attribute name="_ref" value="46" v="0" al="6" x="1513" y="2240"/>
+<attribute name="_type" value="" v="0" al="6" x="1513" y="2280"/>
+</attributes>
+</elem>
+<elem lG="eca3e0f3-f8f0-4bf1-a7c6-74ee417111ca" x="1700" y="2240" a="-1800" sX="1.6000" sY="1.6000">
+<attributes>
+<attribute name="_ref" value="85" v="0" al="6" x="1655" y="2220"/>
+<attribute name="_type" value="" v="0" al="6" x="1655" y="2260"/>
+</attributes>
+</elem>
+<text x="1701" y="2300" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">CP2</text>
+<text x="1421" y="2260" a="900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">µ Inversor</text>
+<text x="1641" y="2000" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">120 V AC</text>
+<polyline pts="1480,2020,1480,2060,"/>
+<polyline pts="1600,2020,1600,2060,"/>
+<polyline pts="1700,2020,1700,2060,"/>
+<text x="1541" y="2260" a="900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">µ Inversor</text>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1220" y="1500" a="900" sX="0.6667" sY="0.7097">
+<attributes>
+<attribute name="_ref" value="96" v="0" al="6" x="1165" y="1480"/>
+<attribute name="_type" value="" v="0" al="6" x="1165" y="1520"/>
+</attributes>
+</elem>
+<elem lG="eca3e0f3-f8f0-4bf1-a7c6-74ee417111ca" x="1400" y="1700" a="-1800" sX="1.6000" sY="1.6000">
+<attributes>
+<attribute name="_ref" value="97" v="0" al="6" x="1355" y="1680"/>
+<attribute name="_type" value="" v="0" al="6" x="1355" y="1720"/>
+</attributes>
+</elem>
+<text x="1401" y="1760" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">CP1</text>
+<text x="1121" y="1460" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">1φ</text>
+<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="1120" y="1500">
+<attributes>
+<attribute name="_ref" value="98" v="0" al="6" x="1085" y="1480"/>
+<attribute name="_type" value="" v="0" al="6" x="1085" y="1520"/>
+</attributes>
+</elem>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1060" y="2300" sX="0.6667" sY="0.7097">
+<attributes>
+<attribute name="_ref" value="51" v="0" al="6" x="1005" y="2280"/>
+<attribute name="_type" value="" v="0" al="6" x="1005" y="2320"/>
+</attributes>
+</elem>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="940" y="2300" sX="0.6667" sY="0.7097">
+<attributes>
+<attribute name="_ref" value="52" v="0" al="6" x="885" y="2280"/>
+<attribute name="_type" value="" v="0" al="6" x="885" y="2320"/>
+</attributes>
+</elem>
+<polyline pts="1480,2140,1480,2220,"/>
+<polyline pts="1480,2300,1480,2440,"/>
+<polyline pts="1600,2300,1600,2440,"/>
+<polyline pts="1600,2140,1600,2220,"/>
+<polyline pts="1060,2340,940,2340,"/>
+<polyline pts="1700,2140,1700,2220,"/>
+<elem lG="4e09a6b8-4be0-4e4d-b98c-ef594e82475d" x="1840" y="1700" a="-1800" sX="0.9524" sY="0.9375">
+<attributes>
+<attribute name="_ref" value="K5" v="0" al="6" x="1773" y="1680"/>
+<attribute name="_type" value="" v="0" al="6" x="1773" y="1720"/>
+</attributes>
+</elem>
+<text x="1841" y="1700" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">DDS661</text>
+<polyline pts="1300,1600,1300,1680,"/>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="680" y="1220" sX="0.6667" sY="0.7097">
+<attributes>
+<attribute name="_ref" value="64" v="0" al="6" x="625" y="1200"/>
+<attribute name="_type" value="" v="0" al="6" x="625" y="1240"/>
+</attributes>
+</elem>
+<text x="721" y="1300" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">2φ</text>
+<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="680" y="1280">
+<attributes>
+<attribute name="_ref" value="65" v="0" al="6" x="645" y="1260"/>
+<attribute name="_type" value="" v="0" al="6" x="645" y="1300"/>
+</attributes>
+</elem>
+<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="680" y="1300">
+<attributes>
+<attribute name="_ref" value="66" v="0" al="6" x="645" y="1280"/>
+<attribute name="_type" value="" v="0" al="6" x="645" y="1320"/>
+</attributes>
+</elem>
+<elem lG="cf0708d5-ea40-459e-9e6b-1fdc3caad39b" x="680" y="1500" a="-1800" sX="0.6452" sY="0.6429">
+<attributes>
+<attribute name="_ref" value="75" v="0" al="6" x="593" y="1480"/>
+<attribute name="_type" value="" v="0" al="6" x="593" y="1520"/>
+</attributes>
+</elem>
+<text x="601" y="1500" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">3 kW</text>
+<text x="601" y="1480" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">GEN 24</text>
+<elem lG="4e09a6b8-4be0-4e4d-b98c-ef594e82475d" x="680" y="1380" a="-1800" sX="0.9524" sY="0.9375">
+<attributes>
+<attribute name="_ref" value="K7" v="0" al="6" x="613" y="1360"/>
+<attribute name="_type" value="" v="0" al="6" x="613" y="1400"/>
+</attributes>
+</elem>
+<text x="681" y="1380" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">DDS661</text>
+<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="820" y="1560" sX="0.6667" sY="0.7097">
+<attributes>
+<attribute name="_ref" value="87" v="0" al="6" x="765" y="1540"/>
+<attribute name="_type" value="" v="0" al="6" x="765" y="1580"/>
+</attributes>
+</elem>
+<elem lG="eca3e0f3-f8f0-4bf1-a7c6-74ee417111ca" x="820" y="1700" a="-1800" sX="1.6000" sY="1.6000">
+<attributes>
+<attribute name="_ref" value="88" v="0" al="6" x="775" y="1680"/>
+<attribute name="_type" value="" v="0" al="6" x="775" y="1720"/>
+</attributes>
+</elem>
+<text x="821" y="1760" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">PV Point</text>
+<polyline pts="680,1140,680,1180,"/>
+<polyline pts="720,1500,820,1500,820,1520,"/>
+<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="760" y="1500">
+<attributes>
+<attribute name="_ref" value="89" v="0" al="6" x="725" y="1480"/>
+<attribute name="_type" value="" v="0" al="6" x="725" y="1520"/>
+</attributes>
+</elem>
+<text x="801" y="1480" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">2φ</text>
+<polyline pts="1180,1500,1060,1500,"/>
+<polyline op-lc="16711680" pts="1180,2340,1180,2380,1600,2380,1600,2380,">
+<op-lt head="dotted (.5x), ........................................" body="A,0,-.125"/>
+</polyline>
+<polyline pts="1480,2420,1120,2420,1120,2340,">
+<op-lt head="dotted (.5x), ........................................" body="A,0,-.125"/>
+</polyline>
+<polyline pts="1600,1500,1740,1500,"/>
 <polyline pts="680,1260,680,1360,"/>
 <polyline pts="680,1400,680,1460,"/>
-<polyline pts="1340,1260,1340,1360,"/>
-<polyline pts="1340,1400,1340,1460,"/>
-<polyline pts="1680,1600,1680,1620,"/>
-<polyline pts="1680,1700,1680,1740,"/>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1040" y="1220" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="64" v="0" al="6" x="985" y="1200"/>
-<attribute name="_type" value="" v="0" al="6" x="985" y="1240"/>
-</attributes>
-</elem>
-<text x="1081" y="1340" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">2φ</text>
-<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="1040" y="1340">
-<attributes>
-<attribute name="_ref" value="65" v="0" al="6" x="1005" y="1320"/>
-<attribute name="_type" value="" v="0" al="6" x="1005" y="1360"/>
-</attributes>
-</elem>
-<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="1040" y="1360">
-<attributes>
-<attribute name="_ref" value="66" v="0" al="6" x="1005" y="1340"/>
-<attribute name="_type" value="" v="0" al="6" x="1005" y="1380"/>
-</attributes>
-</elem>
-<elem lG="cf0708d5-ea40-459e-9e6b-1fdc3caad39b" x="1040" y="1580" a="-1800" sX="0.6452" sY="0.6429">
-<attributes>
-<attribute name="_ref" value="75" v="0" al="6" x="953" y="1560"/>
-<attribute name="_type" value="" v="0" al="6" x="953" y="1600"/>
-</attributes>
-</elem>
-<text x="961" y="1580" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">3 kW</text>
-<text x="961" y="1600" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">GEN 24</text>
-<elem lG="4e09a6b8-4be0-4e4d-b98c-ef594e82475d" x="1040" y="1440" a="-1800" sX="0.9524" sY="0.9375">
-<attributes>
-<attribute name="_ref" value="K7" v="0" al="6" x="973" y="1420"/>
-<attribute name="_type" value="" v="0" al="6" x="973" y="1460"/>
-</attributes>
-</elem>
-<text x="1121" y="1420" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">S.M. TS</text>
-<text x="1121" y="1440" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">100 A</text>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1180" y="1640" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="87" v="0" al="6" x="1125" y="1620"/>
-<attribute name="_type" value="" v="0" al="6" x="1125" y="1660"/>
-</attributes>
-</elem>
-<elem lG="eca3e0f3-f8f0-4bf1-a7c6-74ee417111ca" x="1180" y="1760" a="-1800" sX="1.6000" sY="1.6000">
-<attributes>
-<attribute name="_ref" value="88" v="0" al="6" x="1135" y="1740"/>
-<attribute name="_type" value="" v="0" al="6" x="1135" y="1780"/>
-</attributes>
-</elem>
-<text x="1181" y="1820" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">PV Point</text>
-<polyline pts="1040,1140,1040,1180,"/>
-<polyline pts="1040,1260,1040,1420,"/>
-<polyline pts="1040,1460,1040,1540,"/>
-<polyline pts="1180,1680,1180,1740,"/>
-<polyline pts="1080,1580,1180,1580,1180,1600,"/>
-<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="1120" y="1580">
-<attributes>
-<attribute name="_ref" value="89" v="0" al="6" x="1085" y="1560"/>
-<attribute name="_type" value="" v="0" al="6" x="1085" y="1600"/>
-</attributes>
-</elem>
-<text x="1161" y="1560" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">1φ</text>
-<text x="801" y="1900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">5.1 kW</text>
-<text x="1681" y="1900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">4.8 kW</text>
-<text x="1281" y="1720" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">60</text>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="700" y="2400" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="86" v="0" al="6" x="645" y="2380"/>
-<attribute name="_type" value="" v="0" al="6" x="645" y="2420"/>
-</attributes>
-</elem>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="580" y="2400" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="92" v="0" al="6" x="525" y="2380"/>
-<attribute name="_type" value="" v="0" al="6" x="525" y="2420"/>
-</attributes>
-</elem>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="460" y="2400" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="95" v="0" al="6" x="405" y="2380"/>
-<attribute name="_type" value="" v="0" al="6" x="405" y="2420"/>
-</attributes>
-</elem>
-<polyline pts="700,2440,700,2540,"/>
-<polyline pts="580,2440,580,2540,"/>
-<polyline pts="460,2440,460,2540,"/>
-<polyline pts="1340,1540,1340,1600,"/>
-<polyline pts="1360,1680,1360,1600,"/>
-<polyline pts="1560,1600,1560,1680,"/>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1600" y="1500" a="-900" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="34" v="0" al="6" x="1545" y="1480"/>
-<attribute name="_type" value="" v="0" al="6" x="1545" y="1520"/>
-</attributes>
-</elem>
-<text x="1481" y="1460" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">1φ</text>
-<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="1480" y="1500">
-<attributes>
-<attribute name="_ref" value="35" v="0" al="6" x="1445" y="1480"/>
-<attribute name="_type" value="" v="0" al="6" x="1445" y="1520"/>
-</attributes>
-</elem>
-<polyline op-lw="4" pts="1720,2180,1420,2180,"/>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1460" y="2260" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="42" v="0" al="6" x="1405" y="2240"/>
-<attribute name="_type" value="" v="0" al="6" x="1405" y="2280"/>
-</attributes>
-</elem>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1680" y="2260" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="43" v="0" al="6" x="1625" y="2240"/>
-<attribute name="_type" value="" v="0" al="6" x="1625" y="2280"/>
-</attributes>
-</elem>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="1580" y="2260" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="44" v="0" al="6" x="1525" y="2240"/>
-<attribute name="_type" value="" v="0" al="6" x="1525" y="2280"/>
-</attributes>
-</elem>
-<elem lG="4e09a6b8-4be0-4e4d-b98c-ef594e82475d" x="1460" y="2420" a="-1800" sX="0.9524" sY="0.9688">
-<attributes>
-<attribute name="_ref" value="K2" v="0" al="6" x="1393" y="2400"/>
-<attribute name="_type" value="" v="0" al="6" x="1393" y="2440"/>
-</attributes>
-</elem>
-<text x="1461" y="2420" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ET112</text>
-<elem lG="4e09a6b8-4be0-4e4d-b98c-ef594e82475d" x="1580" y="2420" a="-1800" sX="0.9524" sY="0.9688">
-<attributes>
-<attribute name="_ref" value="K8" v="0" al="6" x="1513" y="2400"/>
-<attribute name="_type" value="" v="0" al="6" x="1513" y="2440"/>
-</attributes>
-</elem>
-<text x="1581" y="2420" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ET112</text>
-<elem lG="cf0708d5-ea40-459e-9e6b-1fdc3caad39b" x="1460" y="2580" a="-1800" sX="0.6452" sY="0.6429">
-<attributes>
-<attribute name="_ref" value="45" v="0" al="6" x="1373" y="2560"/>
-<attribute name="_type" value="" v="0" al="6" x="1373" y="2600"/>
-</attributes>
-</elem>
-<elem lG="cf0708d5-ea40-459e-9e6b-1fdc3caad39b" x="1580" y="2580" a="-1800" sX="0.6452" sY="0.6429">
-<attributes>
-<attribute name="_ref" value="46" v="0" al="6" x="1493" y="2560"/>
-<attribute name="_type" value="" v="0" al="6" x="1493" y="2600"/>
-</attributes>
-</elem>
-<elem lG="eca3e0f3-f8f0-4bf1-a7c6-74ee417111ca" x="1680" y="2420" a="-1800" sX="1.6000" sY="1.6000">
-<attributes>
-<attribute name="_ref" value="85" v="0" al="6" x="1635" y="2400"/>
-<attribute name="_type" value="" v="0" al="6" x="1635" y="2440"/>
-</attributes>
-</elem>
-<text x="1681" y="2480" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">CP2</text>
-<text x="1361" y="2580" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">µ Inversor</text>
-<text x="1621" y="2160" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">120 V AC</text>
-<polyline pts="1460,2180,1460,2220,"/>
-<polyline pts="1460,2300,1460,2400,"/>
-<polyline pts="1460,2440,1460,2540,"/>
-<polyline pts="1580,2180,1580,2220,"/>
-<polyline pts="1580,2300,1580,2400,"/>
-<polyline pts="1580,2440,1580,2540,"/>
-<polyline pts="1680,2180,1680,2220,"/>
-<polyline pts="1680,2300,1680,2400,"/>
-<text x="1681" y="2580" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">µ Inversor</text>
-<polyline pts="1380,1500,1560,1500,1560,1500,"/>
-<elem lG="171cb0d3-ff1b-45f1-8ace-e09420952ad8" x="900" y="1640" sX="0.6667" sY="0.7097">
-<attributes>
-<attribute name="_ref" value="96" v="0" al="6" x="845" y="1620"/>
-<attribute name="_type" value="" v="0" al="6" x="845" y="1660"/>
-</attributes>
-</elem>
-<elem lG="eca3e0f3-f8f0-4bf1-a7c6-74ee417111ca" x="900" y="1760" a="-1800" sX="1.6000" sY="1.6000">
-<attributes>
-<attribute name="_ref" value="97" v="0" al="6" x="855" y="1740"/>
-<attribute name="_type" value="" v="0" al="6" x="855" y="1780"/>
-</attributes>
-</elem>
-<text x="901" y="1820" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">CP1</text>
-<text x="781" y="1460" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">1φ</text>
-<elem lG="c3eba183-8d23-4974-a672-41762927b359" x="780" y="1500">
-<attributes>
-<attribute name="_ref" value="98" v="0" al="6" x="745" y="1480"/>
-<attribute name="_type" value="" v="0" al="6" x="745" y="1520"/>
-</attributes>
-</elem>
-<polyline pts="900,1680,900,1740,"/>
-<polyline pts="900,1600,900,1500,720,1500,"/>
-<polyline pts="1640,1500,1760,1500,1760,2120,1700,2120,1700,2180,"/>
-<polyline pts="1040,1620,1040,2040,460,2040,460,2360,"/>
-<polyline pts="1360,1760,1360,2080,580,2080,580,2360,"/>
-<polyline pts="1560,1760,1560,2120,700,2120,700,2360,"/>
+<polyline pts="1400,1680,1400,1500,1260,1500,"/>
+<polyline pts="820,1600,820,1680,"/>
+<polyline pts="480,1540,480,1680,"/>
+<polyline pts="280,1540,280,1680,"/>
+<polyline pts="1700,1600,1700,1680,"/>
+<polyline pts="1160,1680,1160,1600,"/>
+<text x="941" y="1820" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Freno</text>
+<polyline pts="1820,1500,1840,1500,1840,1680,"/>
+<polyline pts="1840,1720,1840,1960,1720,1960,1720,2020,"/>
+<polyline op-lc="16711680" pts="1540,1760,1540,1940,1340,1940,1340,2180,1180,2180,1180,2260,1180,2180,1060,2180,1060,2260,"/>
+<polyline pts="1300,1760,1300,2140,1120,2140,1120,2260,1120,2140,1000,2140,1000,2260,"/>
+<polyline pts="940,2260,940,2140,680,2140,680,1540,"/>
 </layer>
 </layers>
 </page>
